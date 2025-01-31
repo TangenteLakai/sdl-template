@@ -21,7 +21,8 @@ int main(int argc, char *argv[])
 
         // Window stays open for 5 seconds
         SDL_Delay(5000);
-        // The quit to acoid memory leaks
+        // The quit to avoid memory leaks
         SDL_Quit();
+        
         return 0;
 }
